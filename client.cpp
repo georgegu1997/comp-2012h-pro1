@@ -63,10 +63,6 @@ void Client::get_price()
     printf("server sell at %0.2f at %s", pkg.gen_price, ctime(&pkg.gen_time));
     printf("buy FAIL\n");
   }
-  //if (*buf == '$') {
-  //  strcpy(price_info, buf);
-  //}
-  //printf("%s", buf);
 }
 
 void Client::gen_buy_request()
